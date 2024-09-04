@@ -3,6 +3,14 @@ converts hex to rgb values
 Nadeem Elsayed
 */
 
+//hexadecimal and decimal conversions are required for rgb and hex conversions since rgb is based on the decimal system
+function hex_to_decimal(hex) {
+    return parseInt(hex,16);
+}
+function decimal_to_hex(decimal) {
+    return decimal.toString(16);
+}
+
 function rgb_to_hex(rgb) {
     
 }
@@ -13,3 +21,5 @@ hex1 = "#FFFFFF"
 hex2 = "#000000"
 rgb1 = [0,0,0]
 rgb2 = [255,255,255]
+rgb3 = "(16,16,16)"
+
