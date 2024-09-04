@@ -1,0 +1,15 @@
+/*
+converts hex to rgb values
+Nadeem Elsayed
+*/
+
+function rgb_to_hex(rgb) {
+    
+}
+function hex_to_rgb(hex) {
+    
+}
+hex1 = "#FFFFFF"
+hex2 = "#000000"
+rgb1 = [0,0,0]
+rgb2 = [255,255,255]
